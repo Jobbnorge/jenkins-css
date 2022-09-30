@@ -1,3 +1,24 @@
 #page-header {
   background-color: #127DAC
 }
+
+/* Custom style for Jnekins */
+.logo img {
+  content:url(“https://www.jobbnorge.no/search/img/logo/Jobbnorge_logo_white.svg”);
+  /*change the path to your logo path*/
+}
+
+#jenkins-name-icon {
+  display: none;
+}
+
+.logo:after {
+  content: ‘Sample Project’;
+  font-weight: bold;
+  font-size: 40px;
+  font-family:”Brush Script MT”, cursive;
+  margin-left: 200px;
+  margin-right: 12px;
+  color: Aqua;
+  line-height: 40px;
+}
